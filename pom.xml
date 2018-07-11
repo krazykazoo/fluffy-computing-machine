@@ -72,7 +72,8 @@
           <version>2.2</version>
           <configuration>
             <url>${TOMCAT_DEPLOY_URL}</url>
-            <server>localhost</server>
+            <username>maven</username>
+            <password>deploy</password>
             <path>/myapp</path>
             <update>true</update>
           </configuration>
